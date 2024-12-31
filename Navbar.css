@@ -1,0 +1,109 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo{
+    width: 130px;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box  img{
+    width: 15px;
+}
+
+@media (max-width: 900px){
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width: 90px;
+    }
+    .nav-middle .mic-icon{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+     }
+     /* Navbar.css */
+
+.nav-right {
+    position: relative; /* Needed for dropdown positioning */
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px; /* Adjust based on your navbar height */
+    right: 10px; /* Adjust as needed */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ccc; /* Light grey border */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 200px; /* Fixed width for the dropdown */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.dropdown-item {
+    padding: 12px 15px; /* Increased padding for better spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.2s; /* Smooth transition */
+}
+
+.dropdown-item:hover {
+    background-color: #f9f9f9; /* Light grey on hover */
+}
+
+.dropdown-item img {
+    width: 24px; /* Icon size */
+    height: 24px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.dropdown-item:last-child {
+    border-top: 1px solid #e0e0e0; /* Divider for logout */
+    color: #ff0000; /* Red color for logout */
+}
+
+.dropdown-item:last-child:hover {
+    background-color: #ffe6e6; /* Light red on hover for logout */
+}
+    
+    
+}
