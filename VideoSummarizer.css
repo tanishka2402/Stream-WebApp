@@ -1,0 +1,30 @@
+/* src/components/VideoSummarizer.css */
+
+.video-summarizer {
+    margin-top: 20px; /* Space above the summarizer */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.summarize-button {
+    background-color: #ff0000; /* YouTube red color */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.summarize-button:hover {
+    background-color: #d50000; /* Darker red on hover */
+}
+
+.summary-text {
+    margin-top: 20px; /* Space above the summary text */
+    font-size: 16px; /* Font size for summary */
+    line-height: 1.5; /* Line height for readability */
+    color: #333; /* Dark grey color for text */
+    max-width: 600px; /* Limit width of summary */
+}
