@@ -1,0 +1,33 @@
+/* src/components/VideoDetail.css */
+
+.video-detail {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    padding: 20px; /* Padding around the component */
+}
+
+.video-player {
+    height: 70%; /* Height for the video player */
+    margin-bottom: 20px; /* Space below the video player */
+}
+
+.video-title {
+    font-size: 24px; /* Font size for the title */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.video-channel {
+    font-size: 18px; /* Font size for the channel name */
+    color: #555; /* Grey color for channel name */
+    margin-bottom: 10px; /* Space below the channel name */
+}
+
+.video-description {
+    font-size: 16px; /* Font size for description */
+    line-height: 1.5; /* Line height for readability */
+    color: #333; /* Dark grey color for text */
+}
+.summarizer-button{
+    margin-top: 10px;
+}
